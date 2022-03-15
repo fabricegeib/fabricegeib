@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🌱 I’m currently learning React and Solidity
+- 🌱 I’m currently learning React, Solidity and WSL
 <!--
 **fabricegeib/fabricegeib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
