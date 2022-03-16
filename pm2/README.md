@@ -154,3 +154,7 @@ pm2 start app.js --no-daemon
 pm2 start app.js --no-vizion
 pm2 start app.js --no-autorestart
 ```
+
+## Resources
+
+https://pm2.keymetrics.io/docs/usage/quick-start/
