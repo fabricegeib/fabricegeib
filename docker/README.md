@@ -41,6 +41,8 @@ http://localhost/assets/app.zip
 
 Create a file named Dockerfile in the same folder as the file package.json with the following contents.
 
+http://localhost:3000
+
 ```
 FROM node:12-alpine
 # Adding build tools to make yarn install work on Apple silicon / arm64 machines
