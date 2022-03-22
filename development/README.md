@@ -24,6 +24,7 @@ https://expo.dev/
 ## Learn
 https://threejs-journey.com/
 https://scrimba.com/learn/learnjavascript  
+https://leerob.io/blog/spotify-api-nextjs  
 https://scrimba.com/learn/learnreact  
 https://www.freecodecamp.org/learn/back-end-development-and-apis/#mongodb-and-mongoose  
 https://www.freecodecamp.org/news/full-stack-ethereum-development/  

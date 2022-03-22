@@ -3,6 +3,8 @@
 ```shell
 wsl -l -v
 wsl --set-default-version 2
+
+wsl --shutdown
 ```
 ## Debian 
 
