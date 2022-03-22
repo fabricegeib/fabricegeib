@@ -201,4 +201,11 @@ This message is shown once a day. To disable it please create the
 
 ## Ressources
 
-https://docs.microsoft.com/fr-fr/windows/wsl/compare-versions
+https://docs.microsoft.com/fr-fr/windows/wsl/  
+https://docs.microsoft.com/fr-fr/windows/wsl/compare-versions  
+https://docs.microsoft.com/fr-fr/windows/wsl/install-manual  
+https://docs.microsoft.com/fr-fr/windows/wsl/basic-commands  
+https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git  
+https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl  
+https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/3-integration-between-linux-and-windows  
+
