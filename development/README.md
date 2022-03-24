@@ -51,6 +51,9 @@ https://bestofreactjs.com/repo/pacocoursey-next-themes-react-nextjs-extensions#w
 https://brianlovin.com/writing/adding-dark-mode-with-next-js  
 https://dev.to/theodorusclarence/how-to-show-now-playing-in-spotify-with-next-js-15h5  
 https://www.freecodecamp.org/news/how-to-write-cleaner-react-code/  
+https://www.jetbrains.com/webstorm/guide/tutorials/react_typescript_tdd/class_props/  
+https://www.facebook.com/sparkarhub/dashboard/  
+
 
 
 
