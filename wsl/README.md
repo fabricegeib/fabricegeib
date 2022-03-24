@@ -1,10 +1,22 @@
 # WSL
 
 ```shell
+# list of wsl install
 wsl -l -v
+
+# change default version to wsl2
 wsl --set-default-version 2
 
+# stop / restart
 wsl --shutdown
+
+#update wsl1 to wsl 2
+wsl --set-version <distro name> 2
+wsl --set-version Debian 2
+
+# La conversion est en cours. Cette opération peut prendre quelques minutes...
+# Pour plus d’informations sur les différences de clés avec WSL 2, visitez https://aka.ms/wsl2
+# Le délai de l’opération a expiré, car aucune réponse n’a été reçue de l’ordinateur virtuel ou du conteneur.
 ```
 ## Debian 
 
