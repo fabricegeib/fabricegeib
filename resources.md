@@ -9,16 +9,22 @@ https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-with-tai
 - https://mantine.dev/
 - https://create-react-app.dev/docs/developing-components-in-isolation/
 - [React JS Crash Course](https://youtu.be/w7ejDZ8SWv8)
+- https://github.com/vercel/next.js/tree/canary/examples/data-fetch
+- [Next.js Tutorial - Part 4 | API Routes using SQL Database](https://youtu.be/PxiQDo0CmDE)
+- https://nextjs.org/docs/api-routes/dynamic-api-routes
+- https://stackabuse.com/building-a-rest-api-with-node-and-express/
 
 ## Web
 - https://www.contentful.com/
 - https://www.hackerrank.com/
 - https://nuxtjs.org/fr/
+- https://github.com/features/copilot/
 - 
 
 ## Web 3
 
 - https://buildspace.so/
+- https://thirdweb.com/dashboard
 - https://github.com/BlockDevsUnited/BasicFrontEndTutorial/tree/master/contracts
 - https://openquest.xyz/quest/solidity-hello-world
 - https://learnweb3.io/
@@ -28,4 +34,5 @@ https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-with-tai
 
 ## Artistes / Designers / Developpers
 
+- https://hakim.se/
 - https://mcknny.com/
