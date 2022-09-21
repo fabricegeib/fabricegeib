@@ -1,7 +1,11 @@
-### Hi there 👋
+# Hi there 👋
 
 - 🌱 I’m currently learning React, Solidity and WSL
 
+## Side project
+
+- https://diversunivers.com/
+- https://iamfabriceg.xyz/
 
 <!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=fabricegeib&show_icons=true&locale=en&layout=compact&theme=apprentice " alt="fabricegeib" /></p> -->
 
