@@ -1,5 +1,3 @@
-# Blockchain
-
 Voici un liste non exhaustive :
 
 - [Binance Chain](https://www.bnbchain.org/en)
@@ -22,7 +20,3 @@ Afin d'utiliser les services de Binance vous devez dans certains cas créer un c
 - [Tezos](https://tezos.com/)
 - [Tron](https://tron.network/)
 - [XDC](https://www.xdc.org/)
- 
- 
-### Links
-https://fleek.co/  
