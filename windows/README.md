@@ -104,7 +104,17 @@ Extra
 - ubooquity
 - rust
 
-## Menu
+## Menu / Menu Démarrer / Menu Windows
 
-C:\Users\Fabri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+Ajouter des programmes à au menu en ajoutant des raccourcis dans ce dossier
 
+`C:\Users\Fabri\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`
+
+## OBS
+
+`C:\Program Files\obs-studio`
+
+### Plugins pour OBS
+
+- spectralizer
+- [StreamFX](https://github.com/Xaymar/obs-StreamFX/)
