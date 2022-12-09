@@ -1,3 +1,11 @@
+---
+Id: 1
+ContentId: 1234-ABCD-5E6F
+PageTitle: Administration
+DateApproved: 4/10/2022
+MetaDescription: Administration
+---
+
 # Administration
 
 - https://espace-personnel.lacipav.fr/
@@ -7,4 +15,4 @@
 - https://cfspro.impots.gouv.fr/mire/accueil.do
 - https://www.entreprises.cci-paris-idf.fr/web/reglementation/developpement-entreprise/droit-fiscal/regime-micro-entreprises
 - https://www.lecoindesentrepreneurs.fr/regime-micro-entreprise-ou-regime-benefice-reel/
-- 
+-
