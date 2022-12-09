@@ -1,4 +1,4 @@
-# Hi there 👋
+# Hello world 👋
 
 - 🔭 I’m currently working on [iamfabriceg.xyz](https://iamfabriceg.xyz), [diversunivers.com](https://diversunivers.com) and [qualiextra.com](https://qualiextra.com)
 - 🌱 I’m currently learning Express, React and Symfony
@@ -12,7 +12,7 @@
 
 <!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=fabricegeib&show_icons=true&locale=en&layout=compact&theme=apprentice " alt="fabricegeib" /></p> -->
 
-# Hi there 👋
+<!-- # Hi there 👋 -->
 
 <!--
 **fabricegeib/fabricegeib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
