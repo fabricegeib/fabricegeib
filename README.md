@@ -1,7 +1,7 @@
 # Hello world 👋
 
 - 🔭 I’m currently working on [iamfabriceg.xyz](https://iamfabriceg.xyz), [diversunivers.com](https://diversunivers.com) and [qualiextra.com](https://qualiextra.com)
-- 🌱 I’m currently learning Express, React and Symfony
+- 🌱 I’m currently learning Express, React, Next.js, Docker and Symfony
 
 <!-- - Solidity, WSL -->
 

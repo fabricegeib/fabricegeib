@@ -114,6 +114,13 @@ Ajouter des programmes à au menu en ajoutant des raccourcis dans ce dossier
 
 `C:\Program Files\obs-studio`
 
+`C:\Program Files\obs-studio\obs-plugins`
+
+`C:\Users\Fabri\AppData\Roaming\obs-studio\basic`
+profiles et scenes
+
+`C:\Users\Fabri\AppData\Roaming\obs-studio\plugin_config`
+
 ### Plugins pour OBS
 
 - spectralizer
