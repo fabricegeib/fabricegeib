@@ -8,6 +8,7 @@
 ## Side project
 
 - https://diversunivers.com/
+- https://geib.fr
 - https://iamfabriceg.xyz/
 
 <!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=fabricegeib&show_icons=true&locale=en&layout=compact&theme=apprentice " alt="fabricegeib" /></p> -->
