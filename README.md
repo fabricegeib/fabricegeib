@@ -1,7 +1,7 @@
 # Hello world 👋
 
 - 🔭 I’m currently working on [iamfabriceg.xyz](https://iamfabriceg.xyz) and [diversunivers.com](https://diversunivers.com)
-- 🌱 I’m currently learning Express, React, Next.js and Docker
+- 🌱 I’m currently learning Node.js, Express, React, Next.js and Docker
 
 <!-- - Solidity, WSL -->
 
