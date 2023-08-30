@@ -18,7 +18,7 @@ screen -S session_name
 ./run.sh
 ```
 
-Pour détacher la session `Ctrl` + A puis `d`
+Pour détacher la session `Ctrl + A` puis `d`
 
 Rejoindre à nouveau la session
 
