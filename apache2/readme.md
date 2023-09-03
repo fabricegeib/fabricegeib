@@ -32,3 +32,40 @@ sudo brew services start httpd
 ```
 
 `/usr/local/etc/httpd/httpd.conf`
+
+## Create VirtualHost
+
+Create a virtualHost for the application Cockpit
+
+```shell
+sudo nano /etc/apache2/sites-available/cockpit.conf
+```
+
+Inside `cockpit.conf` insert :
+
+```apacheconf
+<VirtualHost *:80>
+    ServerName nomdedomaine
+    Redirect / https://nomdedomaine/
+</VirtualHost>
+
+<VirtualHost *:443>
+    ServerName nomdedomaine
+    DocumentRoot /var/www/html  # Répertoire racine de votre site, ajustez selon vos besoins
+    SSLEngine on
+    SSLCertificateFile /etc/letsencrypt/live/nomdedomaine/fullchain.pem
+    SSLCertificateKeyFile /etc/letsencrypt/live/nomdedomaine/privkey.pem
+</VirtualHost>
+```
+
+Enable the VirtualHost
+
+```shell
+sudo a2ensite cockpit.conf
+```
+
+Restart Apache2
+
+```shell
+sudo systemctl restart apache2
+```

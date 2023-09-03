@@ -1,6 +1,10 @@
-# Ressources
+# Resources
 
-## A faire
+## TODO
+
+## Tips & Tricks
+
+- https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown
 
 https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-with-tailwind-css-and-supabase-in-nextjs/
 
@@ -15,11 +19,12 @@ https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-with-tai
 - https://stackabuse.com/building-a-rest-api-with-node-and-express/
 
 ## Web
+
 - https://www.contentful.com/
 - https://www.hackerrank.com/
 - https://nuxtjs.org/fr/
 - https://github.com/features/copilot/
-- 
+-
 
 ## Web 3
 
