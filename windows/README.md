@@ -125,3 +125,7 @@ profiles et scenes
 
 - spectralizer
 - [StreamFX](https://github.com/Xaymar/obs-StreamFX/)
+
+## SSH
+
+C:\ProgramData\ssh\ssh_config or C:\Users\Fabri\.ssh\config

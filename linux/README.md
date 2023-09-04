@@ -30,6 +30,28 @@ sudo cp /etc/letsencrypt/live/domain_name/fullchain.pem /etc/cockpit/ws-certs.d/
 sudo cp /etc/letsencrypt/live/domain_name/privkey.pem /etc/cockpit/ws-certs.d/domain_name.key
 ```
 
+## Docker
+
+```
+docker --version
+```
+
+## GitHub CLI
+
+```
+gh
+
+gh repo clone user/repo .
+
+gh repo sync
+```
+
+#MySQL
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'user'@localhost IDENTIFIED BY 'password';
+```
+
 ## Screen
 
 Pour lancer un script en arrière plan via une session :
