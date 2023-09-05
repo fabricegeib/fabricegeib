@@ -69,3 +69,11 @@ Restart Apache2
 ```shell
 sudo systemctl restart apache2
 ```
+
+## Backup
+
+sudo cp -r /etc/apache2 /backup/apache2
+
+or
+
+sudo rsync -av /etc/apache2 /backup/apache2
