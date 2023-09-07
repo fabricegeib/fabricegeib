@@ -5,8 +5,7 @@
 ## Tips & Tricks
 
 - https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown
-
-https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-with-tailwind-css-and-supabase-in-nextjs/
+- https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-with-tailwind-css-and-supabase-in-nextjs/
 
 ## React
 
@@ -25,6 +24,20 @@ https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-with-tai
 - https://nuxtjs.org/fr/
 - https://github.com/features/copilot/
 -
+
+## Selfhosted
+
+- https://github.com/bastienwirtz/homer
+- https://nextcloud.com/
+- https://lidarr.audio/
+- https://radarr.video/
+- https://readarr.com/
+- https://sonarr.tv/
+- https://prowlarr.com/
+- https://wiki.servarr.com/
+- https://github.com/evan-buss/openbooks
+- https://www.photoprism.app/
+- https://awesome-selfhosted.net/
 
 ## Web 3
 

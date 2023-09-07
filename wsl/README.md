@@ -1,24 +1,40 @@
 # WSL
 
 ```shell
+wsl --list --online
+
+wsl --install -d <Distribution Name>
+
+# return
+Installation en cours : Plateforme de machine virtuelle
+Plateforme de machine virtuelle a été installé.
+Installation en cours : Sous-système Windows pour Linux
+Sous-système Windows pour Linux a été installé.
+Installation en cours : Debian GNU/Linux
+Debian GNU/Linux a été installé.
+L’opération demandée est réussie. Les modifications ne seront pas effectives avant que le système ne soit réamorcé.
+PS C:\Users\Fabri\Sites\fabricegeib\fabricegeib>
+
 # list of wsl install
 wsl -l -v
 
-# change default version to wsl2
-wsl --set-default-version 2
+# change default version to wsl 2
+wsl --set-default-version <Version#>
 
 # stop / restart
 wsl --shutdown
 
 #update wsl1 to wsl 2
-wsl --set-version <distro name> 2
-wsl --set-version Debian 2
+wsl --set-version <Distribution Name> 2
 
 # La conversion est en cours. Cette opération peut prendre quelques minutes...
 # Pour plus d’informations sur les différences de clés avec WSL 2, visitez https://aka.ms/wsl2
 # Le délai de l’opération a expiré, car aucune réponse n’a été reçue de l’ordinateur virtuel ou du conteneur.
+
+wsl --update
 ```
-## Debian 
+
+## Debian
 
 ```shell
 # root
@@ -26,6 +42,7 @@ sudo su -
 
 # chsh -s $(which bash)
 ```
+
 ### PM2
 
 ```shell
@@ -183,6 +200,7 @@ schema
 https://www.gatsbyjs.com/docs/tutorial/part-2/
 
 ## Ubuntu
+
 ```
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
 
@@ -221,5 +239,4 @@ https://docs.microsoft.com/fr-fr/windows/wsl/install-manual
 https://docs.microsoft.com/fr-fr/windows/wsl/basic-commands  
 https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git  
 https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl  
-https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/3-integration-between-linux-and-windows  
-
+https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/3-integration-between-linux-and-windows

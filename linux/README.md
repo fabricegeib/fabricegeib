@@ -5,6 +5,9 @@ Debian & Ubuntu
 ## Commands
 
 ```
+# display all commands
+ls /usr/bin | wc -l
+
 # root
 su -
 
@@ -46,7 +49,7 @@ gh repo clone user/repo .
 gh repo sync
 ```
 
-#MySQL
+## MySQL
 
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'user'@localhost IDENTIFIED BY 'password';
