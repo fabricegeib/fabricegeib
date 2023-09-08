@@ -104,6 +104,13 @@ Extra
 - ubooquity
 - rust
 
+## Commands
+
+```
+# display windows version
+winver
+```
+
 ## Menu / Menu Démarrer / Menu Windows
 
 Ajouter des programmes à au menu en ajoutant des raccourcis dans ce dossier

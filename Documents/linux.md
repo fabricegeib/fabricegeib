@@ -4,7 +4,7 @@ Debian & Ubuntu
 
 ## Commands
 
-```
+```shell
 # display all commands
 ls /usr/bin | wc -l
 
@@ -35,7 +35,7 @@ sudo cp /etc/letsencrypt/live/domain_name/privkey.pem /etc/cockpit/ws-certs.d/do
 
 ## Docker
 
-```
+```shell
 # user docker without sudo
 sudo usermod -aG docker $USER
 
@@ -52,7 +52,7 @@ sudo service docker status
 
 ## GitHub CLI
 
-```
+```shell
 gh
 
 gh repo clone user/repo .
@@ -62,7 +62,7 @@ gh repo sync
 
 ## MySQL
 
-```
+```sql
 GRANT ALL PRIVILEGES ON *.* TO 'user'@localhost IDENTIFIED BY 'password';
 ```
 
@@ -85,7 +85,7 @@ screen -r session_name
 
 ## SSH
 
-```
+```shell
 ssh-keygen
 
 # for more security
@@ -98,7 +98,7 @@ Copy your public key on the file `~/.ssh/authorized_keys` of your distant machin
 
 Some others options to use your public key on an other machine :
 
-```
+```shell
 # first option
 ssh-copy-id usert@distant_machine_IP
 
@@ -109,6 +109,20 @@ cat ~/.ssh/id_rsa.pub | ssh user@distant_machine_IP "mkdir -p ~/.ssh && cat >> ~
 cat ~/.ssh/id_rsa.pub
 mkdir -p ~/.ssh
 echo SSH_public_key >> ~/.ssh/authorized_keys
+```
+
+## systemd
+
+```shell
+systemctl list-units	# Lister les services
+systemctl status [nom du service].service	# Connaitre l'état d'un service
+systemctl enable [nom du service].service	# Activer un service
+systemctl disable [nom du service].service	# Désactiver un service
+systemctl stop [nom du service].service	# Arrêter un service
+systemctl start [nom du service].service	# Démarrer un service
+systemctl restart [nom du service].service	# Redémarrer un service
+systemctl reload [nom du service].service	# Recharge du service avec les nouveaux paramètres (évite les coupures)
+systemctl daemon-reload	# Pour prendre en compte la modification d'un service
 ```
 
 ## Transmission
