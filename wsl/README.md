@@ -43,6 +43,68 @@ sudo su -
 # chsh -s $(which bash)
 ```
 
+## Docker
+
+```
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# Install last version
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+sudo systemctl start docker
+sudo systemctl enable docker
+
+# Verify the installation by running the "hello world" image
+sudo docker run hello-world
+
+# Restart docker (wsl don't use systemd)
+sudo service docker stop
+sudo service docker start
+sudo service docker status
+```
+
+### Gatsby
+
+```shell
+npm install -g gatsby-cli
+
+gatsby --version
+
+gatsby --help
+
+gatsby new
+
+cd my-first-gatsby-site
+
+# npm run develop
+gatsby develop
+```
+
+```
+You can now view my-first-gatsby-site in the browser.
+⠀
+  http://localhost:8000/
+⠀
+View GraphiQL, an in-browser IDE, to explore your site's data and
+schema
+⠀
+  http://localhost:8000/___graphql
+```
+
+https://www.gatsbyjs.com/docs/tutorial/part-2/
+
 ### PM2
 
 ```shell
@@ -169,36 +231,6 @@ pm2 unstartup
 pm2 startup systemd
 ```
 
-### Gatsby
-
-```shell
-npm install -g gatsby-cli
-
-gatsby --version
-
-gatsby --help
-
-gatsby new
-
-cd my-first-gatsby-site
-
-# npm run develop
-gatsby develop
-```
-
-```
-You can now view my-first-gatsby-site in the browser.
-⠀
-  http://localhost:8000/
-⠀
-View GraphiQL, an in-browser IDE, to explore your site's data and
-schema
-⠀
-  http://localhost:8000/___graphql
-```
-
-https://www.gatsbyjs.com/docs/tutorial/part-2/
-
 ## Ubuntu
 
 ```
@@ -229,6 +261,14 @@ To see these additional updates run: apt list --upgradable
 
 This message is shown once a day. To disable it please create the
 /home/fabricegeib/.hushlogin file.
+```
+
+## Windows
+
+Acces to Windows users folder on wsl
+
+```
+cd /mnt/c/Users/Fabri
 ```
 
 ## Ressources

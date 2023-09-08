@@ -36,7 +36,18 @@ sudo cp /etc/letsencrypt/live/domain_name/privkey.pem /etc/cockpit/ws-certs.d/do
 ## Docker
 
 ```
+# user docker without sudo
+sudo usermod -aG docker $USER
+
 docker --version
+
+# restart with systemd
+sudo systemctl restart docker
+
+# restart docker don't use systemd (like wsl)
+sudo service docker stop
+sudo service docker start
+sudo service docker status
 ```
 
 ## GitHub CLI

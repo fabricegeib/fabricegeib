@@ -76,6 +76,10 @@ Now that you have started this application, you can check its status, logs, metr
 pm2 [list|ls|status]
 ```
 
+### Show
+
+pm2 show <process_name|process_id>
+
 ### Display logs
 
 ```
