@@ -80,6 +80,13 @@ pm2 [list|ls|status]
 
 pm2 show <process_name|process_id>
 
+### Save
+
+```
+pm2 save
+# /home/fabricegeib/.pm2/dump.pm2
+```
+
 ### Display logs
 
 ```
