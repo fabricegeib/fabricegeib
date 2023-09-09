@@ -45,7 +45,9 @@ sudo su -
 
 ## Docker
 
-```
+Install without Docker Desktop
+
+```shell
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
@@ -73,9 +75,32 @@ sudo docker run hello-world
 sudo service docker stop
 sudo service docker start
 sudo service docker status
+
+# Version
+docker --version
 ```
 
-### Gatsby
+## Docker Compose
+
+Install Docker Compose
+
+```shell
+# for the latest version
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+# To choose a version
+sudo curl -L "https://github.com/docker/compose/releases/download/<VERSION>/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+# Give execute permission
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+
+# delete
+sudo rm /usr/local/bin/docker-compose
+
+# connect to container shell
+docker-compose exec apache bash
+```
+
+## Gatsby
 
 ```shell
 npm install -g gatsby-cli
@@ -263,6 +288,12 @@ This message is shown once a day. To disable it please create the
 /home/fabricegeib/.hushlogin file.
 ```
 
+## VirtualHost
+
+```
+sudo a2enmod vhost_alias
+```
+
 ## Windows
 
 Acces to Windows users folder on wsl
@@ -282,3 +313,4 @@ https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-ws
 https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/3-integration-between-linux-and-windows
 https://learn.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-containers
 https://docs.docker.com/engine/install/debian/
+https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9

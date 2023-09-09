@@ -11,6 +11,10 @@ ls /usr/bin | wc -l
 # root
 su -
 
+# execute a command [group] without sudo
+# disconnect and reconnect the [user] for the changes to take effect
+sudo usermod -aG [group] [user]
+
 # update & upgrade
 apt update
 apt upgrade
@@ -18,10 +22,17 @@ apt upgrade
 # disk status
 df -h
 
-# information
-hostnamectl
+# display information
+hostname
+hostname -i
 
 ip a
+```
+
+## VirtualHost
+
+```
+sudo a2enmod vhost_alias
 ```
 
 ## Cockpit
@@ -33,6 +44,14 @@ sudo cp /etc/letsencrypt/live/domain_name/fullchain.pem /etc/cockpit/ws-certs.d/
 sudo cp /etc/letsencrypt/live/domain_name/privkey.pem /etc/cockpit/ws-certs.d/domain_name.key
 ```
 
+## DNS
+
+```shell
+show dns config
+
+cat /etc/resolv.conf
+```
+
 ## Docker
 
 ```shell
@@ -40,6 +59,12 @@ sudo cp /etc/letsencrypt/live/domain_name/privkey.pem /etc/cockpit/ws-certs.d/do
 sudo usermod -aG docker $USER
 
 docker --version
+
+# list containers
+docker ps
+
+# 
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name_or_id>
 
 # restart with systemd
 sudo systemctl restart docker
