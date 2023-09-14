@@ -256,6 +256,13 @@ pm2 unstartup
 pm2 startup systemd
 ```
 
+## portainer
+
+docker volume create portainer_data
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+docker container ps
+https://localhost:9443
+
 ## Ubuntu
 
 ```
@@ -304,13 +311,15 @@ cd /mnt/c/Users/Fabri
 
 ## Ressources
 
-https://docs.microsoft.com/fr-fr/windows/wsl/  
+https://docs.microsoft.com/fr-fr/windows/wsl/
 https://docs.microsoft.com/fr-fr/windows/wsl/compare-versions  
 https://docs.microsoft.com/fr-fr/windows/wsl/install-manual  
-https://docs.microsoft.com/fr-fr/windows/wsl/basic-commands  
+https://docs.microsoft.com/fr-fr/windows/wsl/basic-commands
+https://learn.microsoft.com/en-us/windows/wsl/wsl-config  
 https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git  
 https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl  
 https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/3-integration-between-linux-and-windows
 https://learn.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-containers
 https://docs.docker.com/engine/install/debian/
 https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
+https://docs.portainer.io/start/install-ce/server/docker/linux

@@ -63,7 +63,7 @@ docker --version
 # list containers
 docker ps
 
-# 
+#
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name_or_id>
 
 # restart with systemd
@@ -83,6 +83,12 @@ gh
 gh repo clone user/repo .
 
 gh repo sync
+```
+
+## Let's encrypt
+
+```
+sudo certbot --apache -d fabricegeib.com
 ```
 
 ## MySQL

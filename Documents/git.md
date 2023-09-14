@@ -11,6 +11,12 @@ git status
 git add .
 
 git commit -m "Message"
+
+# remove file
+git rm --cached <file>
+
+# remove tracked folder recursovely
+git rm -r --cached <folder>
 ```
 
 ## GitHub CLI
