@@ -3,6 +3,8 @@
 ## Commands
 
 ```
+sudo service docker start
+
 docker images
 docker containers
 ```
