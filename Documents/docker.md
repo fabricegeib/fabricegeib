@@ -7,6 +7,11 @@ sudo service docker start
 
 docker images
 docker containers
+
+# -it = interactive terminal
+# -v = volume mount
+# -w = working directory
+docker run -it -v $(pwd):/srv -w /srv {image_name}:{tag}
 ```
 
 ## Docker Compose

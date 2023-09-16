@@ -323,3 +323,4 @@ https://learn.microsoft.com/fr-fr/windows/wsl/tutorials/wsl-containers
 https://docs.docker.com/engine/install/debian/
 https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
 https://docs.portainer.io/start/install-ce/server/docker/linux
+https://learn.microsoft.com/fr-fr/windows/wsl/wsl-config
