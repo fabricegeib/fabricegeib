@@ -8,7 +8,7 @@ Base
 - AMD SOftware
 - Cider
 - Apple Music 2.5.0 [cryptofire]
-- winget install --id=CiderCollective.Cider.Nightly  -e
+- winget install --id=CiderCollective.Cider.Nightly -e
 - Github Pages
 - TreeSize
 - Ryzen Master
@@ -136,3 +136,22 @@ profiles et scenes
 ## SSH
 
 C:\ProgramData\ssh\ssh_config or C:\Users\Fabri\.ssh\config
+
+## Winget
+
+```shell
+# Search for an application:
+winget search NAME
+# Install an application:
+winget install NAME
+# List installed applications:
+winget list
+# See available updates:
+winget upgrade
+# Install all available updates:
+winget upgrade --all
+```
+
+https://learn.microsoft.com/en-us/windows/package-manager/winget/
+
+https://winget.run/
